@@ -12,7 +12,7 @@
 
 import Foundation
 
-// MARK: - Welcome
+// MARK: - TrendingMovieModel
 struct TrendingMovieModel: Codable {
     let page: Int
     let results: [Movie]
@@ -25,7 +25,7 @@ struct TrendingMovieModel: Codable {
     }
 }
 
-// MARK: - Result
+// MARK: - Movie
 struct Movie: Codable {
     let adult: Bool
     let backdropPath: String

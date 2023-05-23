@@ -12,6 +12,7 @@ class MainViewController: UIViewController {
     //IBoutlets:
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     //ViewModel:
     var viewModel: MainViewModel = MainViewModel()
     
@@ -19,6 +20,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         configView()
+        bindViewModel()
     }
 
     func configView() {
@@ -26,6 +28,14 @@ class MainViewController: UIViewController {
         self.view.backgroundColor = .systemRed
         
         setupTableView()
+    }
+    
+    func bindViewModel() {
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        viewModel.getData()
     }
 
 }

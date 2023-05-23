@@ -20,6 +20,7 @@
 		09610C312A1C17D0002DA6BD /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09610C302A1C17D0002DA6BD /* NetworkConstant.swift */; };
 		09610C332A1C19D2002DA6BD /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09610C322A1C19D2002DA6BD /* APICaller.swift */; };
 		09610C352A1C1A2A002DA6BD /* TrendingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09610C342A1C1A2A002DA6BD /* TrendingMoviesModel.swift */; };
+		97DEFB6A2A1C6F9D00460B6D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DEFB692A1C6F9D00460B6D /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		09610C302A1C17D0002DA6BD /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		09610C322A1C19D2002DA6BD /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		09610C342A1C1A2A002DA6BD /* TrendingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesModel.swift; sourceTree = "<group>"; };
+		97DEFB692A1C6F9D00460B6D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 		09610C272A1C0ED4002DA6BD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				97DEFB692A1C6F9D00460B6D /* Observable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DEFB6A2A1C6F9D00460B6D /* Observable.swift in Sources */,
 				09610BEF2A1C09B4002DA6BD /* AppDelegate.swift in Sources */,
 				09610C332A1C19D2002DA6BD /* APICaller.swift in Sources */,
 				09610C2D2A1C1168002DA6BD /* MainViewConteroller+TableView.swift in Sources */,
