@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class DetailsMovieViewController: UIViewController {
 
@@ -33,7 +34,10 @@ class DetailsMovieViewController: UIViewController {
     }
 
     func configView() {
-        
+        self.title = "Movie Details"
+        titleLabel.text = viewModel.movieTitle
+        descriptionLabel.text = viewModel.movieDescription
+        imageView.sd_setImage(with: viewModel.movieImage)
     }
 
 }
